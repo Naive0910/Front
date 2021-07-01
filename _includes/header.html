@@ -5,6 +5,13 @@
 {%- endif -%}
 
 <div  id="page" class="hfeed site">
+	<meta itemprop="image" content="{{ site.image }}" />
+	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<meta itemprop="addressLocality" content="Old Greenwich" />
+		<meta itemprop="addressRegion" content="CT" />
+		<meta itemprop="postalCode" content="06870" />
+	</div>
+	<meta itemprop="priceRange" content="$" />
 	<header id="masthead" class="site-header">
 		<a class="home-link" href="{{ '/#page' | relative_url }}" title="云南特产美食网" rel="home">
 			<h2 itemprop="name" class="site-title">云南特产美食网</h2>
